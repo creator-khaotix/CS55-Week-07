@@ -7,4 +7,6 @@ import { getFirestore } from "firebase/firestore";
 // This is a Server Action
 // https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions
 // Replace the function below
-export async function handleReviewFormSubmission(data) {}
+export async function handleReviewFormSubmission(data) {
+  console.log("Review form submission:", data);
+}
